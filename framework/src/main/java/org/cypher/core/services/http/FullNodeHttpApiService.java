@@ -18,7 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.cypher.common.application.Service;
 import org.cypher.common.parameter.CommonParameter;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.InitZksnarkParams;
 import org.cypher.core.config.args.Args;
 import org.cypher.core.exception.ZksnarkException;

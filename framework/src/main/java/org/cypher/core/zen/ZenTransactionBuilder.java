@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
 import org.cypher.common.utils.ByteArray;
 import org.cypher.common.zksnark.IncrementalMerkleVoucherContainer;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.BindingSigParams;
 import org.tron.common.zksnark.LibrustzcashParam.OutputProofParams;
 import org.tron.common.zksnark.LibrustzcashParam.SpendProofParams;

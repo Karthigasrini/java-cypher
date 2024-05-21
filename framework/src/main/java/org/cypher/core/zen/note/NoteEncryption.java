@@ -13,7 +13,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.cypher.common.utils.ByteUtil;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.JLibsodium;
 import org.tron.common.zksnark.JLibsodiumParam.Black2bSaltPersonalParams;
 import org.tron.common.zksnark.JLibsodiumParam.Chacha20Poly1305IetfEncryptParams;

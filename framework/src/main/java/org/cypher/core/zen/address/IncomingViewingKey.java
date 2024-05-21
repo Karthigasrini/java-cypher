@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.IvkToPkdParams;
 import org.cypher.core.exception.ZksnarkException;
 

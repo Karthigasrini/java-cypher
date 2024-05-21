@@ -17,7 +17,7 @@ import org.cypher.common.utils.Commons;
 import org.cypher.common.utils.DecodeUtil;
 import org.cypher.common.utils.Sha256Hash;
 import org.cypher.common.zksnark.IncrementalMerkleTreeContainer;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.CheckOutputParams;
 import org.tron.common.zksnark.LibrustzcashParam.CheckSpendParams;
 import org.tron.common.zksnark.LibrustzcashParam.FinalCheckParams;

@@ -30,7 +30,7 @@ import org.cypher.common.utils.ByteUtil;
 import org.cypher.common.utils.FileUtil;
 import org.cypher.common.zksnark.IncrementalMerkleTreeContainer;
 import org.cypher.common.zksnark.IncrementalMerkleVoucherContainer;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.JLibsodium;
 import org.tron.common.zksnark.JLibsodiumParam.Black2bSaltPersonalParams;
 import org.tron.common.zksnark.JLibsodiumParam.Chacha20poly1305IetfDecryptParams;

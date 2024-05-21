@@ -52,7 +52,7 @@ import org.cypher.common.utils.BIUtil;
 import org.cypher.common.utils.ByteArray;
 import org.cypher.common.utils.ByteUtil;
 import org.cypher.common.utils.Sha256Hash;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam;
 import org.cypher.core.capsule.AccountCapsule;
 import org.cypher.core.capsule.TransactionCapsule;

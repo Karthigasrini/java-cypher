@@ -28,7 +28,7 @@ import org.cypher.common.utils.Sha256Hash;
 import org.cypher.common.zksnark.IncrementalMerkleTreeContainer;
 import org.cypher.common.zksnark.IncrementalMerkleTreeContainer.EmptyMerkleRoots;
 import org.cypher.common.zksnark.IncrementalMerkleVoucherContainer;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.BindingSigParams;
 import org.tron.common.zksnark.LibrustzcashParam.CheckOutputParams;
 import org.tron.common.zksnark.LibrustzcashParam.CheckSpendParams;

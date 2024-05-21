@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.cypher.common.utils.ByteArray;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.JLibsodium;
 import org.tron.common.zksnark.JLibsodiumParam.Blake2bFinalParams;
 import org.tron.common.zksnark.JLibsodiumParam.Blake2bInitSaltPersonalParams;

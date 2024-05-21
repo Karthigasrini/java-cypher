@@ -4,7 +4,7 @@ import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 import lombok.extern.slf4j.Slf4j;
 import org.cypher.common.utils.ByteArray;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.MerkleHashParams;
 import org.cypher.core.exception.ZksnarkException;
 import org.cypher.protos.contract.ShieldContract.PedersenHash;

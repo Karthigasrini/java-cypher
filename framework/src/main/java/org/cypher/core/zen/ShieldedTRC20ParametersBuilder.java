@@ -17,7 +17,7 @@ import org.cypher.api.GrpcAPI.ShieldedTRC20Parameters;
 import org.cypher.common.utils.ByteArray;
 import org.cypher.common.utils.ByteUtil;
 import org.cypher.common.utils.Sha256Hash;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam;
 import org.tron.common.zksnark.ZksnarkUtils;
 import org.cypher.core.Wallet;

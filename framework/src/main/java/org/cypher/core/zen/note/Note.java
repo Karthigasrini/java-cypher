@@ -14,7 +14,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.cypher.common.utils.ByteArray;
-import org.tron.common.zksnark.JLibrustzcash;
+import org.cypher.common.zksnark.JLibrustzcash;
 import org.tron.common.zksnark.LibrustzcashParam.ComputeCmParams;
 import org.tron.common.zksnark.LibrustzcashParam.ComputeNfParams;
 import org.tron.common.zksnark.LibrustzcashParam.IvkToPkdParams;
