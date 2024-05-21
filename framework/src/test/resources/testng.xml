@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stest" parallel="tests" thread-count="4">
+
+  <listeners>
+    <listener class-name="stest.cypher.wallet.common.client.utils.RetryListener"/>
+  </listeners>
+  <test name="account,transfer">
+    <packages>
+      <package name="stest.cypher.wallet.transfer">
+      </package>
+      <package name="stest.cypher.wallet.account">
+      </package>
+    </packages>
+  </test>
+
+  <test name="exchangeandtoken,mutisign">
+    <packages>
+      <package name="stest.cypher.wallet.exchangeandtoken">
+      </package>
+      <package name="stest.cypher.wallet.mutisign">
+      </package>
+    </packages>
+  </test>
+
+  <test name="Contract linkage,block,node">
+    <packages>
+      <package name="stest.cypher.wallet.contract.linkage">
+      </package>
+      <package name="stest.cypher.wallet.block">
+      </package>
+    </packages>
+  </test>
+
+  <test name="contract scenario,committee,witness">
+    <packages>
+      <package name="stest.cypher.wallet.contract.scenario">
+      </package>
+      <package name="stest.cypher.wallet.committee">
+      </package>
+      <package name="stest.cypher.wallet.witness">
+      </package>
+    </packages>
+  </test>
+</suite>
